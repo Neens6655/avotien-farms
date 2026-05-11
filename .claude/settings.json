@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun run lint:*)",
+      "Bash(bun run build:*)",
+      "Bash(bun dev:*)",
+      "Bash(bun run dev:*)",
+      "Bash(bun test:*)",
+      "Bash(bunx tsc --noEmit:*)",
+      "Bash(git:*)",
+      "mcp__plugin_playwright_playwright__*"
+    ]
+  }
+}
